@@ -11,7 +11,6 @@ import MapKit
 
 class ViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var mapView: MKMapView!
-    let identifier = "circle"
   
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +29,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
         view.image?.withTintColor(.blue)
-        view.centerOffset = CGPoint(x: 5, y: -5)
     }
 
 }
