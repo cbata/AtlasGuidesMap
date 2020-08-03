@@ -16,6 +16,7 @@
 		ABAE4AC824D35DD700626714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAE4AC624D35DD700626714 /* LaunchScreen.storyboard */; };
 		ABAE4AD324D35DD700626714 /* AtlasGuidesMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE4AD224D35DD700626714 /* AtlasGuidesMapTests.swift */; };
 		ABAE4AE124D37C2B00626714 /* CircleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE4AE024D37C2B00626714 /* CircleAnnotation.swift */; };
+		ABB726B624D5014B00B707A8 /* UIImage+WithTintColorWorkaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB726B524D5014B00B707A8 /* UIImage+WithTintColorWorkaround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		ABAE4AD224D35DD700626714 /* AtlasGuidesMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasGuidesMapTests.swift; sourceTree = "<group>"; };
 		ABAE4AD424D35DD700626714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABAE4AE024D37C2B00626714 /* CircleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnnotation.swift; sourceTree = "<group>"; };
+		ABB726B524D5014B00B707A8 /* UIImage+WithTintColorWorkaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+WithTintColorWorkaround.swift"; path = "AtlasGuidesMap/UIImage+WithTintColorWorkaround.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		ABAE4AAF24D35DD400626714 = {
 			isa = PBXGroup;
 			children = (
+				ABB726B524D5014B00B707A8 /* UIImage+WithTintColorWorkaround.swift */,
 				ABAE4ABA24D35DD400626714 /* AtlasGuidesMap */,
 				ABAE4AD124D35DD700626714 /* AtlasGuidesMapTests */,
 				ABAE4AB924D35DD400626714 /* Products */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB726B624D5014B00B707A8 /* UIImage+WithTintColorWorkaround.swift in Sources */,
 				AB0FCCC524D3CF3800BBC629 /* CircleAnnotationView.swift in Sources */,
 				ABAE4AE124D37C2B00626714 /* CircleAnnotation.swift in Sources */,
 				ABAE4AC024D35DD400626714 /* ViewController.swift in Sources */,

@@ -7,31 +7,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "ACD759BA-36C0-4A6A-A405-8A84EA4C5693"
-            shouldBeEnabled = "No"
+            uuid = "070A4932-55A6-48BD-B042-FC60F616A878"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AtlasGuidesMap/ViewController.swift"
+            filePath = "AtlasGuidesMap/UIImage+WithTintColor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "mapView(_:didSelect:)"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "withTintColor(_:size:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "303164FD-1DAD-4552-8AE9-632A3DBB7EA4"
-            shouldBeEnabled = "No"
+            uuid = "D1593DD0-98B3-4AE2-B897-24EBDDB2423B"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AtlasGuidesMap/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "createAnnotation(_:)"
             landmarkType = "7">
          </BreakpointContent>

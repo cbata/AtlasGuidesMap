@@ -21,14 +21,23 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     @IBAction func createAnnotation(_ sender: UILongPressGestureRecognizer) {
-        let point = sender.location(in: mapView)
-        let coordinate = mapView.convert(point, toCoordinateFrom: mapView)
-        let annotation = CircleAnnotation(coordinate: coordinate)
-        mapView.addAnnotation(annotation)
+        if sender.state == .ended {
+            let point = sender.location(in: mapView)
+            let coordinate = mapView.convert(point, toCoordinateFrom: mapView)
+            let annotation = CircleAnnotation(coordinate: coordinate)
+            mapView.addAnnotation(annotation)
+        }
     }
         
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        view.image?.withTintColor(.blue)
+        let circleImage = UIImage(systemName:"circlebadge.fill")?.withTintColorWorkaround(.blue)
+        view.image = circleImage
+
+    }
+    
+    func mapView(_ mapView: MKMapView, didDeselect view: MKAnnotationView) {
+        let circleImage = UIImage(systemName:"circlebadge.fill")?.withTintColorWorkaround(.red)
+        view.image = circleImage
     }
 
 }

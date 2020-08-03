@@ -13,8 +13,7 @@ class CircleAnnotationView: MKAnnotationView {
     override init(annotation: MKAnnotation?, reuseIdentifier: String?) {
         super.init(annotation: annotation, reuseIdentifier: reuseIdentifier)
 
-        let circleImage = UIImage(systemName: "circlebadge.fill")
-        circleImage?.withTintColor(.red)
+        let circleImage = UIImage(systemName:"circlebadge.fill")?.withTintColorWorkaround(.red)
 
         image = circleImage
         isDraggable = true
